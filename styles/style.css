@@ -36,16 +36,16 @@
   height: 105px;
 }
 
+.address__link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .address {
   font-style: normal; 
   margin: 0;
   font-size: 18px;
   line-height: 24.3px;
-}
-
-.address__link {
-  text-decoration: underline;
-  text-underline-offset: 4px;
 }
 
 .header__address {
@@ -212,7 +212,7 @@
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.card_type_picture{
+.card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
 }
 
