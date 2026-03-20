@@ -6,17 +6,17 @@
   padding: 92px 50px 96px;
 }
 
-.header__menu{
+.header__menu {
   font-size: 18px;
 }
 
-.header__links-list{
+.header__links-list {
   display: flex;
   gap: 32px;
   list-style: circle;
 }
 
-.header__links-list-item{
+.header__links-list-item {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
@@ -28,10 +28,11 @@
 
 .header__logo {
   display: block;
+  width: 148px;
 }
 
 .header__logo-image {
-  width: 148px;
+  width: 100%;
   height: 105px;
 }
 
@@ -42,20 +43,18 @@
   line-height: 24.3px;
 }
 
-.address__link{
+.address__link {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
-.header__address{
+.header__address {
   max-width: 240px;
   justify-self: end;
 }
-
 /* Конец шапки */
 
 /* начало main */
-
 /* Блок "cover" */
 .cover {
   position: relative;
@@ -65,7 +64,7 @@
   color: #fff;
 }
 
-.overlay{
+.overlay {
   width: 100%;
   position: absolute;
   inset: 0;
@@ -92,7 +91,7 @@
   display: block;
 }
 
-.aligned-text_center{
+.aligned-text_center {
   text-align: center;
   padding-left: 30px;
 }
@@ -101,11 +100,11 @@
   text-align: right;
 }
 
-.letter-spacing-extended{
+.letter-spacing-extended {
   letter-spacing: 0.3em;
 }
 
-.no-letter-spacing{
+.no-letter-spacing {
   letter-spacing: 0em;
 }
 
@@ -225,18 +224,16 @@
   padding-top: 30px;
   padding-left: 64px;
 }
-
 /* Конец блока "lots" */
 
 /* Блок "about" */
-
-.about{
+.about {
   margin-bottom: 180px;
   font-family: Raleway, sans-serif;
   color: #000;
 }
 
-.about__column{
+.about__column {
   display: grid;
   grid-template-columns: 334px repeat(1, 1fr);
   gap: 25px;
@@ -260,14 +257,14 @@
   height: 114px;
 }
 
-.about__column-right{
+.about__column-right {
   display: flex;
   flex-direction: column;
   gap: 24px;
   padding-top: 99px;
 }
 
-.about__title{
+.about__title {
   font-size: 40px;
   font-style: bold;
   font-weight: 700;
@@ -275,12 +272,11 @@
   padding-bottom: 76px;
 }
 
-.about__text{
+.about__text {
   font-size: 20px;
   line-height: 24px;
 
 }
-
 /* Конец блока "about" */
 
 /* Подвал */
@@ -290,8 +286,7 @@
   padding: 0 50px 82px;
 }
 
-.footer__address{
- 
+.footer__address {
   justify-self: flex-start;
 }
 
@@ -302,33 +297,32 @@
 
 .footer__menu-list {
   list-style: none;
-
 }
 
-.footer__menu-list-item{
+.footer__menu-list-item {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
 }
 
-.footer__menu-link{
+.footer__menu-link {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
-.footer__menu-link_active{
+.footer__menu-link_active {
   text-decoration: none;
 }
 
 
-.footer__social-list{
+.footer__social-list {
   display: flex;
   list-style: none;
   gap: 48px;
 }
 
-.footer__social-icon{
+.footer__social-icon {
   width: 48px;
   height: 48px;
 }
