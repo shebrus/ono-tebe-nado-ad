@@ -36,16 +36,16 @@
   height: 105px;
 }
 
-.address__link {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
 .address {
-  font-style: normal; 
+  font-style: normal;
   margin: 0;
   font-size: 18px;
   line-height: 24.3px;
+}
+
+.address__link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .header__address {
